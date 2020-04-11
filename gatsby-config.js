@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby ❤️ Notion`,
-    description: `build site with gatsby & notion`,
-    author: `@mayneyao`,
+    title: `有朋自远方来`,
+    description: `不亦说乎`,
+    author: `@shihuhu`,
   },
   plugins: [
     {
@@ -11,12 +11,12 @@ module.exports = {
         sourceConfig: [
           {
             name: 'posts',
-            table: 'https://www.notion.so/4b50defc60ce4e89a6539f511d9d946f?v=8e71dde4479040b5a3e6ca0d91d3d8e6',
+            table: 'https://www.notion.so/82a787ac07404fda9df81d765b6afbf8?v=00a4650f5ab8455fabae2368602c791c',
             cacheType: 'html'
           },
           {
             name: 'books',
-            table: 'https://www.notion.so/4ae9328e650945eb9adbd882b3b453d3?v=0966bdbd0645437cbcc62e6a933e241c',
+            table: 'https://www.notion.so/5779d9f7dc5d4cfaa72eac2d7f60268a?v=cfa17c8fb9e74cd2baea615e6f2fa711',
             cacheType: 'static'
           }
         ]
