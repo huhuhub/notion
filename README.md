@@ -1,0 +1,2 @@
+# notion
+my notion blog
